@@ -182,6 +182,10 @@ section{
    
 }
 
+.second .details{
+padding: 0px
+}
+
 .third{
     grid-area: v;
 }
