@@ -25,7 +25,7 @@ html,body{
     height: 100%;
     grid-gap:10px;
     grid-template-columns: 1fr;
-    grid-template-rows: 500px 200px 200px 300px 400px;
+    grid-template-rows: 520px 200px 200px 300px 400px;
 }
 
 section{
@@ -56,7 +56,7 @@ section{
 
 .quote_image{
     position: absolute;
-    width: 120px;
+    width: 130px;
     left: 200px;
     top: 2px;
 }
@@ -72,8 +72,13 @@ section{
     display: block;
     color:rgb(180, 162, 162);
     padding-top: 2px; 
+    font-size: 13px;
     
    
+}
+
+.details{
+    margin-bottom: 5px;
 }
 
 .second{
@@ -106,6 +111,8 @@ section{
     color: 	rgb(180, 162, 162);
     line-height: 1.5rem;
     font-size: 1.1rem;
+    padding-right: 25px;
+
 
     
 }
@@ -124,11 +131,26 @@ section{
 .first{
     position: relative;
    grid-area: f;
+   padding-right: 40px;
+   padding-left: 40px;
 }
 
 .quote_image{
     position: absolute;
     left: 500px;
+}
+
+.image p{
+    margin-top: 0px;
+   
+}
+
+.grey{
+    padding-right: 60px;
+}
+
+.white_text{
+    margin-bottom: 0px;
 }
 
 .second{
