@@ -25,7 +25,7 @@ html,body{
     height: 100%;
     grid-gap:10px;
     grid-template-columns: 1fr;
-    grid-template-rows: 450px 200px 200px 300px 400px;
+    grid-template-rows: 500px 200px 200px 300px 400px;
 }
 
 section{
@@ -45,22 +45,35 @@ section{
    
 }
 
-.details{
-    display: flex;
-    flex-direction: row;
+.image p{
+    color: #fff;
+    padding-left: 60px;
+    padding-top: 2px;
+    margin-bottom: 0px;
 }
+
+
 
 .quote_image{
     position: absolute;
-    width: 110px;
-    left: 210px;
+    width: 120px;
+    left: 200px;
     top: 2px;
 }
 
 .icon{
-    width: 35px;
+    width: 40px;
     border-radius: 25px;
     border: 2px solid rgb(180, 162, 162);
+    float: left;
+}
+
+.grad{
+    display: block;
+    color:rgb(180, 162, 162);
+    padding-top: 2px; 
+    
+   
 }
 
 .second{
@@ -83,14 +96,18 @@ section{
 
 .white_text{
     color: #fff;
-    font-size: 20px;
+    font-size: 23px;
     z-index: 4;
+    margin-top: 10px;
 
 }
 
 .grey{
     color: 	rgb(180, 162, 162);
-    line-height: 1.3rem;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
+
+    
 }
 
 
