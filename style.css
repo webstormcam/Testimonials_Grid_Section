@@ -28,12 +28,25 @@ html,body{
     grid-template-rows: 400px 200px 200px 300px 400px;
 }
 
+section{
+    border-radius: 16px;
+}
+
 
 .first{
     background-color: red;
+    position: relative;
+    display: flex;
+    flex-direction: column;
    
     
    
+}
+
+.quote_image{
+    position: absolute;
+    width: 100px;
+    left: 200px;
 }
 
 .second{
@@ -59,14 +72,20 @@ html,body{
 #container{
     width: 1200px;
     grid-template-columns: repeat(5,1fr);
-    grid-template-rows: 200px 200px;
+    grid-template-rows: 300px 300px;
     grid-gap: 20px;
     grid-template-areas: "f f f b y"
                         "v a a a y " ;
    
 }
 .first{
+    position: relative;
    grid-area: f;
+}
+
+.quote_image{
+    position: absolute;
+    left: 500px;
 }
 
 .second{
@@ -78,7 +97,7 @@ html,body{
 }
 
 .fourth{
-    grid-area:a
+    grid-area:a;
 }
 
 .fifth{
