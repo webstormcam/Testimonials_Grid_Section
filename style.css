@@ -20,19 +20,26 @@ html,body{
 }
 
 #container{
+    width: 350px;
     display: grid;
     height: 100%;
-    grid-template-columns: 375px;
-    grid-template-rows: repeat(5,200px);
     grid-gap:10px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 400px 200px 200px;
 }
+
 
 .first{
     background-color: red;
+   
+    
+   
 }
 
 .second{
     background-color: blue;
+
+  
 }
 
 .third{
@@ -45,4 +52,31 @@ html,body{
 
 .fifth{
     background-color: darkorange;
+}
+
+
+@media screen and (min-width: 1440px){
+#container{
+    width: 1000px;
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: 200px 200px;
+    grid-template-areas: "f f f b b"
+                        "v . . . . " ;
+   
+}
+.first{
+   grid-area: f;
+}
+
+.second{
+    grid-area: b;
+}
+
+.third{
+    grid-area: v;
+}
+
+
+
+
 }
