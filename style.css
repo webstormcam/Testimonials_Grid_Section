@@ -132,7 +132,10 @@ section{
 
 .smallgrey{
     padding-left: 0px !important;
-    padding-right: 50px;
+    padding-right: 20px;
+    color: 	rgb(180, 162, 162)!important;
+    line-height: 1.5rem;
+    font-size: 1.1rem;
 }
 
 
@@ -142,7 +145,7 @@ section{
     grid-template-columns: repeat(5,1fr);
     grid-template-rows: 300px 300px;
     grid-gap: 20px;
-    grid-template-areas: "f f f b y"
+    grid-template-areas: "f f f b  y"
                         "v a a a   y " ;
    
 }
