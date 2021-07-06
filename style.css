@@ -142,11 +142,12 @@ section{
 @media screen and (min-width: 1440px){
 #container{
     width: 1400px;
-    grid-template-columns: repeat(5,1fr);
-    grid-template-rows: 300px 300px;
-    grid-gap: 20px;
-    grid-template-areas: "f f f b  y"
-                        "v a a a   y " ;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: 330px 330px;
+    grid-gap: 15px;
+    grid-template-areas: "f f f f f f b b b y y y "
+                        ' v v v  a a a a a a  y y y  ';
+                 
    
 }
 .first{
