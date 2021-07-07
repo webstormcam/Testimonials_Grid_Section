@@ -102,7 +102,7 @@ color: #fff;
 
 
 .third{
-    background-color: blueviolet;
+    background-color: #fff;
 }
 
 .fourth{
@@ -138,6 +138,7 @@ color: #fff;
 
 }
 
+
 .smallgrey{
     padding-left: 0px !important;
     padding-right: 20px;
@@ -167,7 +168,7 @@ color: #fff;
 
 .quote_image{
     position: absolute;
-    left: 500px;
+    left: 470px;
 }
 
 .image p{
