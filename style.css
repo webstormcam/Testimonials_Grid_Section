@@ -26,7 +26,7 @@ html,body{
     height: 100%;
     grid-gap:20px;
     grid-template-columns: 1fr;
-    grid-template-rows: 520px 260px 240px 300px 400px;
+    grid-template-rows: 520px 260px 240px 520px 400px;
     margin-top: 40px;
     margin-bottom: 20px;
 
@@ -82,6 +82,13 @@ section{
    
 }
 
+.grad2{
+    display: block;
+    color:rgb(99, 96, 96);
+    padding-top: 2px; 
+    font-size: 13px;
+}
+
 .details{
     margin-bottom: 5px;
 }
@@ -115,12 +122,12 @@ color: #fff;
 }
 
 .fourth{
-    background-color: brown;
+    background-color: hsl(219, 29%, 14%);
     box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.62);
 }
 
 .fifth{
-    background-color: darkorange;
+    background-color: #fff;
     box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.62);
 }
 
@@ -155,6 +162,13 @@ color: #fff;
     padding-right: 20px;
     color: 	rgb(163, 145, 145)!important;
     line-height: 1.5rem;
+    font-size: 1.1rem;
+}
+
+.othercolor{
+    padding-left: 0px !important;
+    padding-right: 20px;
+    color: 	rgb(99, 99, 96)!important;
     font-size: 1.1rem;
 }
 
@@ -222,6 +236,10 @@ color: #fff;
     padding-right: 50px;
     font-size: 1.1rem;
     line-height: 1.7rem;
+}
+
+.othercolor{
+    line-height: 2rem;
 }
 
 
