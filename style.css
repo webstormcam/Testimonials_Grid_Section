@@ -25,7 +25,7 @@ html,body{
     height: 100%;
     grid-gap:10px;
     grid-template-columns: 1fr;
-    grid-template-rows: 520px 260px 200px 300px 400px;
+    grid-template-rows: 520px 260px 260px 300px 400px;
 }
 
 section{
@@ -88,10 +88,18 @@ section{
   
 }
 
-.second .details{
+.details-small{
     padding-top: 10px;
-    padding-left: 40px;
+    padding-left: 30px;
 }
+
+.image-small p{
+padding-left: 60px;
+color: #fff;
+}
+
+
+
 
 .third{
     background-color: blueviolet;
@@ -182,9 +190,7 @@ section{
    
 }
 
-.second .details{
-padding: 0px
-}
+
 
 .third{
     grid-area: v;
