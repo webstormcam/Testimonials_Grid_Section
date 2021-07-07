@@ -153,13 +153,20 @@ color: #fff;
 .smallgrey{
     padding-left: 0px !important;
     padding-right: 20px;
-    color: 	rgb(180, 162, 162)!important;
+    color: 	rgb(163, 145, 145)!important;
     line-height: 1.5rem;
     font-size: 1.1rem;
 }
 
-.darkcolor{
+#darkcolor{
     color:hsl(219, 29%, 14%) ;
+}
+
+#bigdarkcolor{
+    color:hsl(219, 29%, 14%) ;
+    font-size: 24px;
+    padding: 0px;
+    padding-right: 70px;
 }
 
 
