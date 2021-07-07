@@ -114,10 +114,12 @@ color: #fff;
 
 .fourth{
     background-color: brown;
+    box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.62);
 }
 
 .fifth{
     background-color: darkorange;
+    box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.62);
 }
 
 .white_text{
@@ -152,6 +154,10 @@ color: #fff;
     color: 	rgb(180, 162, 162)!important;
     line-height: 1.5rem;
     font-size: 1.1rem;
+}
+
+.darkcolor{
+    color:hsl(219, 29%, 14%) ;
 }
 
 
