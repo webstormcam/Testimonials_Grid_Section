@@ -43,6 +43,7 @@ section{
     display: flex;
     flex-direction: column;
     padding: 30px;
+    padding-top: 20px;
     box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.62);
 
    
@@ -96,7 +97,8 @@ section{
 .second{
     background-color: hsl(217, 19%, 35%);
     box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.62);
-    ;
+    
+    
 
     
 
@@ -104,7 +106,7 @@ section{
 }
 
 .details-small{
-    padding-top: 10px;
+    padding-top: 13px;
     padding-left: 30px;
 }
 
@@ -124,6 +126,10 @@ color: #fff;
 .fourth{
     background-color: hsl(219, 29%, 14%);
     box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.62);
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    padding-top: 20px;
 }
 
 .fifth{
@@ -148,6 +154,8 @@ color: #fff;
 
     
 }
+
+
 
 .big_white{
     font-size: 20px;
@@ -200,6 +208,7 @@ color: #fff;
    grid-area: f;
    padding-right: 40px;
    padding-left: 40px;
+   padding-top: 30px;
 }
 
 .quote_image{
@@ -217,6 +226,10 @@ color: #fff;
     line-height: 1.7rem;
 }
 
+ .first .grey{
+    margin-top: 25px;
+}
+
 .white_text{
     margin-bottom: 0px;
     padding-right: 60px;
@@ -224,6 +237,7 @@ color: #fff;
 
 .second{
     grid-area: b;
+  
  
    
 }
@@ -250,6 +264,7 @@ color: #fff;
 
 .fourth{
     grid-area:a;
+    padding-top: 30px;
 }
 
 .fifth{
