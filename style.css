@@ -11,6 +11,7 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+  
    
 }
 
@@ -23,9 +24,10 @@ html,body{
     width: 350px;
     display: grid;
     height: 100%;
-    grid-gap:10px;
+    grid-gap:20px;
     grid-template-columns: 1fr;
     grid-template-rows: 520px 260px 240px 300px 400px;
+
 }
 
 section{
@@ -153,7 +155,7 @@ color: #fff;
     width: 1400px;
     grid-template-columns: repeat(12,1fr);
     grid-template-rows: 330px 330px;
-    grid-gap: 20px;
+    grid-gap: 30px;
     grid-template-areas: "f f f f f f  b b b  y y y "
                         ' v v v  a a a a a a  y y y  ';
                  
