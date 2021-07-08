@@ -155,6 +155,10 @@ color: #fff;
     
 }
 
+.fourth .grey{
+   line-height: 1.6em;
+}
+
 
 
 .big_white{
@@ -189,6 +193,10 @@ color: #fff;
     font-size: 24px;
     padding: 0px;
     padding-right: 70px;
+}
+
+.fourth .icon{
+    border: 2px solid hsl(263, 55%, 52%);
 }
 
 
@@ -266,6 +274,8 @@ color: #fff;
     grid-area:a;
     padding-top: 30px;
 }
+
+
 
 .fifth{
     grid-area: y
