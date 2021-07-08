@@ -26,8 +26,8 @@ html,body{
     height: 100%;
     grid-gap:20px;
     grid-template-columns: 1fr;
-    grid-template-rows: 520px 260px 240px 440px 400px;
-    margin-top: 40px;
+    grid-template-rows: 520px 260px 240px 440px 480px;
+    margin-top: 60px;
     margin-bottom: 20px;
 
 }
@@ -135,6 +135,8 @@ color: #fff;
 .fifth{
     background-color: #fff;
     box-shadow: 1px 2px 15px 3px rgba(0,0,0,0.62);
+    padding: 30px;
+    padding-top: 20px;
 }
 
 .fourth p .white_text{
@@ -200,8 +202,18 @@ color: #fff;
     padding-right: 70px;
 }
 
+#bigdarkcolor2{
+    color:hsl(219, 29%, 14%) ;
+    font-size: 24px;
+    
+}
+
 .fourth .icon{
     border: 2px solid hsl(263, 55%, 52%);
+}
+
+.finalgrey{
+    line-height: 1.5rem;
 }
 
 
@@ -288,6 +300,10 @@ color: #fff;
 
 .fifth{
     grid-area: y
+}
+
+.finalgrey{
+    line-height: 2rem;
 }
 
 
